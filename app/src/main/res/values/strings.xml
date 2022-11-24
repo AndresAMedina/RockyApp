@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RockyApp</string>
+    <string name="holy">holy</string>
+    <string name="todo">TODO</string>
+    <string name="click_aqui">Click Aqui</string>
+    <string name="todo1">TODO</string>
+    <string name="bienvenidos_a_rocky_app">Bienvenidos a Rocky App !</string>
+</resources>

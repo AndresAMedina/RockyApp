@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "553206449527",
+    "project_id": "login-29136",
+    "storage_bucket": "login-29136.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553206449527:android:3344b0d469635e432a0d72",
+        "android_client_info": {
+          "package_name": "com.dispositivos.rockyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553206449527-veevmf6222s0hocdqk91ma4ptte2lviu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dispositivos.rockyapp",
+            "certificate_hash": "703b01048391a9421b19a5e051b34d7c42750750"
+          }
+        },
+        {
+          "client_id": "553206449527-a4bqa4a2ltaj7ilcg2qumopdqocfh70v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4WKmxdvv8DmG8_MFaRqP49sv_4CfSHRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553206449527-a4bqa4a2ltaj7ilcg2qumopdqocfh70v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
