@@ -4,6 +4,7 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.dispositivos.rockyapp.R
 import com.dispositivos.rockyapp.perro
 
@@ -20,6 +21,7 @@ class perroViewHolder (view:View):RecyclerView.ViewHolder(view){
        perro.text = perroModelo.perro
        realName.text = perroModelo.realName
        publisher.text = perroModelo.publisher
+       Glide.with(photo.context).load(perroModelo.photo).into(photo)
 
 
 
