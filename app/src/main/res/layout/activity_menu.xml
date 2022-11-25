@@ -107,11 +107,11 @@
 
     <TextView
         android:id="@+id/textmenu6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="68dp"
-        android:text="Asistencia"
+        android:layout_width="129dp"
+        android:layout_height="71dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="32dp"
+        android:text="Asistencia y Servicios "
         android:textColor="@color/rojo"
         android:textSize="24sp"
         android:textStyle="bold"
