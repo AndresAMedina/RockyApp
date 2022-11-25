@@ -1,29 +1,39 @@
 package com.dispositivos.rockyapp.adapter
 
 import android.view.View
-import android.widget.ImageView
-import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.dispositivos.rockyapp.R
+import com.dispositivos.rockyapp.databinding.ItenPerroBinding
 import com.dispositivos.rockyapp.perro
 
 
 class perroViewHolder (view:View):RecyclerView.ViewHolder(view){
 
-    val perro = view.findViewById<TextView>(R.id.tvPerroName)
-    val realName = view.findViewById<TextView>(R.id.tvRealName)
-    val publisher = view.findViewById<TextView>(R.id.tvPublisher)
-    val photo = view.findViewById<ImageView>(R.id.ivPerro)
+    val binding = ItenPerroBinding.bind(view)
+
+
 
 
    fun llamado(perroModelo: perro){
-       perro.text = perroModelo.perro
-       realName.text = perroModelo.realName
-       publisher.text = perroModelo.publisher
-       Glide.with(photo.context).load(perroModelo.photo).into(photo)
+       binding.tvPerroName.text = perroModelo.perro
+       binding.tvRealName.text = perroModelo.realName
+       binding.tvPublisher.text = perroModelo.publisher
+       Glide.with(binding.ivPerro.context).load(perroModelo.photo).into(binding.ivPerro)
 
+       // gestionar los clicks
 
+       binding.ivPerro.setOnClickListener { Toast.makeText(binding.ivPerro.context,
+                                                           perroModelo.realName,
+                                                           Toast.LENGTH_SHORT
+                                                             ).show()
+       }
+
+       itemView.setOnClickListener {  Toast.makeText(
+           binding.ivPerro.context,
+           perroModelo.perro,
+           Toast.LENGTH_SHORT
+       ).show() }
 
    }
 }

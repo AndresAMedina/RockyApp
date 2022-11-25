@@ -16,46 +16,44 @@ class perroPro {
                 "Vacunas",
                 "Cuidados",
                 "Perro y Gato",
-                " https://images.pexels.com/photos/7474852/pexels-photo-7474852.jpeg"
+                "https://images.pexels.com/photos/7474852/pexels-photo-7474852.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 "
             ),
             perro(
                 "Aseo",
                 "Cuidados",
                 "Perro y Gato",
-                " https://images.pexels.com/photos/6131156/pexels-photo-6131156.jpeg"
+                "https://images.pexels.com/photos/6131156/pexels-photo-6131156.jpeg"
             ),
             perro(
                 "Actividades",
                 "Juegos",
                 "Perro y Gato",
-                " https://images.pexels.com/photos/3857521/pexels-photo-3857521.jpeg"
+                "https://images.pexels.com/photos/3857521/pexels-photo-3857521.jpeg"
             ),
             perro(
                 "Juguetes",
                 "Juegos",
                 "Perro y Gato",
-                " https://images.pexels.com/photos/6131156/pexels-photo-6131156.jpeg"
+                "https://images.pexels.com/photos/6131156/pexels-photo-6131156.jpeg"
             ),
             perro(
                 "Centro de adopcion",
                 "Ayuda a un peludo",
                 "Perro y Gato",
-                " https://images.pexels.com/photos/14440674/pexels-photo-14440674.jpeg"
+                "https://images.pexels.com/photos/14440674/pexels-photo-14440674.jpeg"
             ),
             perro(
                 "Donaciones",
                 "Ayuda a un peludo",
                 "Perro y Gato",
-                " https://images.pexels.com/photos/6591164/pexels-photo-6591164.jpeg"
+                "https://images.pexels.com/photos/6591164/pexels-photo-6591164.jpeg"
             ),
             perro(
                 "Policia de rescate animal",
                 "Ayuda a un peludo",
                 "Perro y Gato",
-                " https://images.pexels.com/photos/9428919/pexels-photo-9428919.jpeg"
-            ),
-
-
+                "https://images.pexels.com/photos/9428919/pexels-photo-9428919.jpeg"
+            )
 
         )
 

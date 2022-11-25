@@ -5,19 +5,24 @@ import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.dispositivos.rockyapp.adapter.perroAdapter
+import com.dispositivos.rockyapp.databinding.ActivityMain3Binding
+import com.dispositivos.rockyapp.databinding.ActivityMainBinding
 
 class MainActivity3 : AppCompatActivity() {
+    private lateinit var binding: ActivityMain3Binding
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main3)
+       binding = ActivityMain3Binding.inflate(layoutInflater)
+        setContentView(binding.root)
         initRecyclerView()
     }
      fun initRecyclerView(){
-     val recyclerView = findViewById<RecyclerView>(R.id.recyclerPerro)
-         recyclerView.layoutManager = LinearLayoutManager(this)
-         recyclerView.adapter = perroAdapter(perroPro.perroList)
+
+         binding.recyclerPerro.layoutManager = LinearLayoutManager(this)
+         binding.recyclerPerro.adapter = perroAdapter(perroPro.perroList)
 
     }
 }
